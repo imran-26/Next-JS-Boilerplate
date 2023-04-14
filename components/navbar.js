@@ -67,12 +67,6 @@ const Navbar = () => {
             />
           </div>
           <div className="flex items-center justify-end w-full pt-2 pl-2">
-            <div className="w-16">
-              <Image src={FavoriteIcon} width={28} height={24} alt={"favorite"} />
-            </div>
-            <div className="w-16">
-              <Image src={CartIcon} width={28} height={20} alt={"cart"} />
-            </div>
             <div className="flex gap-2 items-center">
               <Image src={profileImage} width={40} height={40} alt={"DP"} />
               <h1>{profileName}</h1>
